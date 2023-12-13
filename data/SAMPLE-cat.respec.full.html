@@ -1,7 +1,7 @@
 
 <!DOCTYPE HTML><section id="cat" class="normative">
    <h2>Gegevensdefinitie</h2>
-   <!--MIMCM-Bakstenenconceptueelmodel-1.0.0-2-20130318-20231113-124423 imvertor Nightly-build.13-->
+   <!--MIMCM-Bakstenenconceptueelmodel-1.0.0-2-20130318-20231213-173522 imvertor Nightly-build.13-->
    <section id="global_packages">
       <h3>Model   Bakstenen conceptueel model</h3>
       <section id="EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
@@ -162,7 +162,7 @@
                         </td>
                      <td></td>
                      <td>
-                        <a class="link" href="#global_class_BaksteenProductie_Status">Status</a>
+                        <a class="link" href="#detail_class_BaksteenProductie_Status">Status</a>
                         </td>
                      <td>1</td>
                   </tr>
@@ -175,7 +175,7 @@
                         <p>De omvang van de baksteen. </p>
                         </td>
                      <td>
-                        <a class="link" href="#global_class_BaksteenProductie_Steengrootte">Steengrootte</a>
+                        <a class="link" href="#detail_class_BaksteenProductie_Steengrootte">Steengrootte</a>
                         </td>
                      <td>1</td>
                   </tr>
@@ -266,7 +266,7 @@
                         <p>Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
                         </td>
                      <td>
-                        <a class="link" href="#global_class_BaksteenProductie_ProductieKenmerk">Productie­Kenmerk</a>
+                        <a class="link" href="#detail_class_BaksteenProductie_ProductieKenmerk">Productie­Kenmerk</a>
                         </td>
                      <td>1</td>
                   </tr>
@@ -2289,7 +2289,7 @@
          <h4>   Model 1 - overzicht</h4>
          <div class="imageinfo overview">
             <figure><img src="data/Images/EAID_B1512B43_5B77_4c7c_9574_232179AC3035.png" usemap="#imagemap-EAID_B1512B43_5B77_4c7c_9574_232179AC3035" alt="Diagram &#xA;                        Uitleg van dit diagram &#34;Model 1&#34;.&#xA;                        &#xA;                     "><figcaption>Model 1</figcaption>
-            </figure><map name="imagemap-EAID_B1512B43_5B77_4c7c_9574_232179AC3035"><area shape="rect" alt="Adres" coords="854,479,1047,589" href="#global_class_Contract_Adres"><area shape="rect" alt="Accountmanager" coords="409,472,615,612" href="#global_class_Contract_Accountmanager"><area shape="rect" alt="Deal" coords="308,69,520,230" href="#global_class_Contract_Deal"><area shape="rect" alt="Contract" coords="611,268,795,390" href="#global_class_Contract_Contract"><area shape="rect" alt="Client" coords="48,272,290,437" href="#global_class_Contract_Client"></map><p>
+            </figure><map name="imagemap-EAID_B1512B43_5B77_4c7c_9574_232179AC3035"><area shape="rect" alt="Adres" coords="1042,300,1235,596" href="#global_class_Contract_Adres"><area shape="rect" alt="Accountmanager" coords="409,472,615,612" href="#global_class_Contract_Accountmanager"><area shape="rect" alt="Deal" coords="308,69,520,230" href="#global_class_Contract_Deal"><area shape="rect" alt="Contract" coords="611,268,795,390" href="#global_class_Contract_Contract"><area shape="rect" alt="Client" coords="48,272,290,437" href="#global_class_Contract_Client"></map><p>
                
                <p>Uitleg van dit diagram "<i>Model 1</i>".</p>
                
@@ -2299,82 +2299,6 @@
       </section>
       <section>
          <h4>Objecttypen   </h4>
-         
-         <section id="global_class_Contract_Adres">
-            <h5>   Adres</h5>
-            
-            <table style="width: 100%;">
-               <colgroup style="width: 30%;"></colgroup>
-               <colgroup style="width: 70%;"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>Adres</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie abstract object</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            <h6>Overzicht attributen  </h6>
-            
-            <table style="width: 100%;">
-               <colgroup style="width: 30%;"></colgroup>
-               <colgroup style="width: 50%;"></colgroup>
-               <colgroup style="width: 10%;"></colgroup>
-               <colgroup style="width: 10%;"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Attribuutnaam</th>
-                     <th>Definitie</th>
-                     <th>Formaat</th>
-                     <th>Card</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_Contract_Adres_adresregel1">Adresregel1</a>
-                        </td>
-                     <td></td>
-                     <td>
-                        CHARACTERSTRING
-                        </td>
-                     <td>1</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            
-            <h6>Overzicht relaties  </h6>
-            
-            
-            <table style="width: 100%;">
-               <colgroup style="width: 50%;"></colgroup>
-               <colgroup style="width: 50%;"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Rol naam met kardinaliteiten</th>
-                     <th>Definitie</th>
-                  </tr>
-                  <tr>
-                     <td>
-                        
-                        <a class="link" href="#global_class_Contract_Accountmanager">Accountmanager</a>
-                        
-                        [ 1 ]
-                        
-                        <a class="link" href="#detail_association_Contract_Accountmanager_adres">adres</a>
-                        
-                        Adres
-                        [ 1 ]
-                        </td>
-                     <td></td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            </section>
          
          <section id="global_class_Contract_Client">
             <h5>   Client</h5>
@@ -2481,7 +2405,7 @@
                   </tr>
                   <tr>
                      <td>- 
-                        <a class="link" href="#detail_association_Contract_Accountmanager_adres">adres</a>
+                        <a class="link" href="#detail_association_Contract_Accountmanager_adres2rol">adres2relatie</a>
                         </td>
                      <td></td>
                      <td>
@@ -2598,6 +2522,20 @@
                   </tr>
                   <tr>
                      <td>
+                        Contract
+                        [ 1 ]
+                        
+                        <a class="link" href="#detail_association_Contract_Contract_adres2rol">adres1relatie: adres2rol</a>
+                        
+                        
+                        <a class="link" href="#global_class_Contract_Adres">Adres</a>
+                        
+                        [ 1 ]
+                        </td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td>
                         
                         <a class="link" href="#global_class_Contract_Client">Client</a>
                         
@@ -2607,6 +2545,96 @@
                         
                         Contract
                         [ 1 .. * ]
+                        </td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            
+            </section>
+         
+         <section id="global_class_Contract_Adres">
+            <h5>   Adres</h5>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>Adres</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie abstract object</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+            <h6>Overzicht attributen  </h6>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 50%;"></colgroup>
+               <colgroup style="width: 10%;"></colgroup>
+               <colgroup style="width: 10%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Attribuutnaam</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_Contract_Adres_adresregel1">adresregel1</a>
+                        </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+            
+            <h6>Overzicht relaties  </h6>
+            
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 50%;"></colgroup>
+               <colgroup style="width: 50%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Rol naam met kardinaliteiten</th>
+                     <th>Definitie</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        
+                        <a class="link" href="#global_class_Contract_Accountmanager">Accountmanager</a>
+                        
+                        [ 1 ]
+                        
+                        <a class="link" href="#detail_association_Contract_Accountmanager_adres2rol">adres2relatie: adres2rol</a>
+                        
+                        Adres
+                        [ 1 ]
+                        </td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td>
+                        
+                        <a class="link" href="#global_class_Contract_Contract">Contract</a>
+                        
+                        [ 1 ]
+                        
+                        <a class="link" href="#detail_association_Contract_Contract_adres2rol">adres1relatie: adres2rol</a>
+                        
+                        Adres
+                        [ 1 ]
                         </td>
                      <td></td>
                   </tr>
@@ -2837,7 +2865,7 @@
                         Accountmanager
                         [ 1 ]
                         
-                        <a class="link" href="#detail_association_Contract_Accountmanager_adres">adres</a>
+                        <a class="link" href="#detail_association_Contract_Accountmanager_adres2rol">adres2relatie: adres2rol</a>
                         
                         
                         <a class="link" href="#global_class_Contract_Adres">Adres</a>
@@ -2856,49 +2884,6 @@
          
          <section>
             <h5>Objecttype details  </h5>
-            
-            <section id="detail_class_Contract_Adres">
-               <h6>   Adres</h6>
-               
-               <div class="deepheader" id="detail_attribute_Contract_Adres_adresregel1">
-                  <h7>Attribuutsoort details  <a href="#global_class_Contract_Adres">Adres</a> Adresregel1</h7>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th>Naam</th>
-                           <td>Adresregel1</td>
-                        </tr>
-                        <tr>
-                           <th>Formaat</th>
-                           <td>CHARACTERSTRING</td>
-                        </tr>
-                        <tr>
-                           <th>Indicatie kardinaliteit</th>
-                           <td>1</td>
-                        </tr>
-                        <tr>
-                           <th>Indicatie authentiek</th>
-                           <td>Authentiek</td>
-                        </tr>
-                        <tr>
-                           <th>Indicatie afleidbaar</th>
-                           <td>Zie package</td>
-                        </tr>
-                        <tr>
-                           <th>Mogelijk geen waarde</th>
-                           <td>Nee</td>
-                        </tr>
-                        <tr>
-                           <th>Indicatie identificerend</th>
-                           <td>Nee</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  </div>
-               </section>
             
             <section id="detail_class_Contract_Client">
                <h6>   Client</h6>
@@ -3063,8 +3048,8 @@
                      </table>
                      </div>
                   
-                  <div class="notoc" id="detail_association_Contract_Accountmanager_adres">
-                     <h8>Relatiesoort    adres van gegevensgroeptype </h8>
+                  <div class="notoc" id="detail_association_Contract_Accountmanager_adres2rol">
+                     <h8>Relatiesoort    adres2relatie van gegevensgroeptype </h8>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3072,7 +3057,7 @@
                         <tbody>
                            <tr>
                               <th>Naam</th>
-                              <td>adres</td>
+                              <td>adres2relatie</td>
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
@@ -3168,6 +3153,83 @@
                      </tbody>
                   </table>
                   </div>
+               
+               <div class="deepheader" id="detail_association_Contract_Contract_adres2rol">
+                  <h7>Relatiesoort details  <a href="#global_class_Contract_Contract">Contract</a> adres1relatie</h7>
+                  
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Naam</th>
+                           <td>adres1relatie</td>
+                        </tr>
+                        <tr>
+                           <th>Gerelateerd objecttype</th>
+                           <td>
+                              <a class="link" href="#global_class_Contract_Adres">Adres</a>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th>Indicatie kardinaliteit</th>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <th>Indicatie authentiek</th>
+                           <td>Authentiek</td>
+                        </tr>
+                        <tr>
+                           <th>Mogelijk geen waarde</th>
+                           <td>Nee</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </div>
+               </section>
+            
+            <section id="detail_class_Contract_Adres">
+               <h6>   Adres</h6>
+               
+               <div class="deepheader" id="detail_attribute_Contract_Adres_adresregel1">
+                  <h7>Attribuutsoort details  <a href="#global_class_Contract_Adres">Adres</a> adresregel1</h7>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Naam</th>
+                           <td>adresregel1</td>
+                        </tr>
+                        <tr>
+                           <th>Formaat</th>
+                           <td>CHARACTERSTRING</td>
+                        </tr>
+                        <tr>
+                           <th>Indicatie kardinaliteit</th>
+                           <td>1</td>
+                        </tr>
+                        <tr>
+                           <th>Indicatie authentiek</th>
+                           <td>Authentiek</td>
+                        </tr>
+                        <tr>
+                           <th>Indicatie afleidbaar</th>
+                           <td>Zie package</td>
+                        </tr>
+                        <tr>
+                           <th>Mogelijk geen waarde</th>
+                           <td>Nee</td>
+                        </tr>
+                        <tr>
+                           <th>Indicatie identificerend</th>
+                           <td>Nee</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </div>
                </section>
             </section>
          
@@ -3247,8 +3309,8 @@
                   </table>
                   </div>
                
-               <div class="notoc" id="detail_association_Contract_Accountmanager_adres">
-                  <h7>Relatiesoort    adres van gegevensgroeptype </h7>
+               <div class="notoc" id="detail_association_Contract_Accountmanager_adres2rol">
+                  <h7>Relatiesoort    adres2relatie van gegevensgroeptype </h7>
                   
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -3256,7 +3318,7 @@
                      <tbody>
                         <tr>
                            <th>Naam</th>
-                           <td>adres</td>
+                           <td>adres2relatie</td>
                         </tr>
                         <tr>
                            <th>Indicatie kardinaliteit</th>
@@ -3515,7 +3577,7 @@
 </section>
 <section id="lis" class="normative">
    <h2>Inhoud van waardenlijsten</h2>
-   <!--MIMCM-Bakstenenconceptueelmodel-1.0.0-2-20130318-20231113-124423 imvertor Nightly-build.13-->
+   <!--MIMCM-Bakstenenconceptueelmodel-1.0.0-2-20130318-20231213-173522 imvertor Nightly-build.13-->
    <section>
       <h3>Referentielijst inhoud   </h3>
       <section id="detail_class_BaksteenProductie_Baksteentype">
